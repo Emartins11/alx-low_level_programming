@@ -1,2 +1,2 @@
 # alx-low_level_programming
-For my alx projects
+Alx projects on C programming language
