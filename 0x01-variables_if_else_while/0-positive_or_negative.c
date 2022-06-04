@@ -1,7 +1,7 @@
 
 int main()
 {
-if (n > 0){
+if (int n > 0){
 printf("%d \n", n, " is positive")
 }
 elif(n == 0){
