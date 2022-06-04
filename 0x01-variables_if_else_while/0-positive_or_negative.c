@@ -1,7 +1,15 @@
+#include <stdlib.h>
+#include <time.h>
+/* more headers goes there */
 
-int main()
+/* betty style doc for function main goes there */
+int main(void)
 {
-if (int n > 0){
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (int n > 0){
 printf("%d \n", n, " is positive")
 }
 elif(n == 0){
@@ -10,5 +18,5 @@ printf("%d \n", n, " is zero")
 else
 printf("%d \n", n, " is negative")
 
-return 0;
+	return (0);
 }
