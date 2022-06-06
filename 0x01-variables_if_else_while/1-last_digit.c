@@ -14,7 +14,7 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
-char convrsn[50] = (char) n;
+char convrsn[50] = n;
 int ld = convrsn[convrsn.length() - 1]
 
 printf("Last digit of %d", n);
