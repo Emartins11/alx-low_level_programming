@@ -11,11 +11,10 @@ int main(void)
 int x;
 for (x = '0'; x <= '9'; x++)
 {
-if (x == '9')
 putchar(x);
-else
-putchar(x);
-putchar(', ')
+if (x < '9')
+putchar(',');
+putchar(' ');
 }
 putchar('\n');
 
