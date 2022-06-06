@@ -1,22 +1,38 @@
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
+#include<stdlib.h>
+#include<time.h>
+#include<stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - Entry
+ *
+ * Return: Always 0
+ */
+
 int main(void)
 {
-	int n;
+int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	if (n > 0){
-printf("%d \n", n, " is positive")
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+
+if (n > 0)
+{
+	printf ("%d", n);
+	printf (" is positive");
 }
-elif(n == 0){
-printf("%d \n", n, " is zero")
+
+else if (n == 0)
+{
+	printf ("%d", n);
+	printf ("is zero");
 }
+
 else
-printf("%d \n", n, " is negative")
-
-	return (0);
+{
+	printf ("%d", n);
+	printf ("is negative");
 }
+
+return (0);
+}
+© 2022 GitH
