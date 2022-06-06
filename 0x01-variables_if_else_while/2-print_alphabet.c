@@ -9,8 +9,12 @@
 int main(void)
 {
 int x;
+int lower_x;
 for (x = 'A'; x <= 'Z'; x++)
-    putchar(tolower(x));
+{
+    lower_x = tolower(x);
+    putchar(lower_x);
+}
 
 return (0);
 }
