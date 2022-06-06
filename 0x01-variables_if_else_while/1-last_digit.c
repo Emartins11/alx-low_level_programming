@@ -14,11 +14,10 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
-char convrsn[50] = n;
-int ld = convrsn[convrsn.length() - 1]
+int ld = n % 10;
 
 printf("Last digit of %d", n);
-printf(" is %s", ld);
+printf(" is %d", ld);
 
 if (ld > 5)
 {
