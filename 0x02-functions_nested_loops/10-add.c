@@ -2,23 +2,17 @@
 #include "main.h"
 
 /**
-* main - Entry
-*
-* Return: Always 0
+* add - check if a character is an alphabet
+* @a: the character to be checked
+* @b: the character to be checked
+
+* Return: 1 if lower and 0 if not
 */
 
-int main(void)
+int add(int a, int b)
 {
+int result;
+result = a + b;
+return result;
 
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('a');
-putchar('r');
-putchar('\n');
-
-return (0);
 }
