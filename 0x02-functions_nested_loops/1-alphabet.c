@@ -7,8 +7,7 @@
 * Return: Always 0
 */
 
-/* to print alphabet */
-void print_alphabet(void)
+void print_alphabet(void) /* to print alphabet */
 {
 char c = 'a';
 
