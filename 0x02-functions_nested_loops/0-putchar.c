@@ -9,9 +9,16 @@
 
 int main(void)
 {
-char a[10];
-a = "_putchar\n";
-putchar(a);
+
+-putchar('_')
+-putchar('p')
+-putchar('u')
+-putchar('t')
+-putchar('c')
+-putchar('h')
+-putchar('a')
+-putchar('r')
+-putchar('\n')
 
 return (0);
 }
