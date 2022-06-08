@@ -2,16 +2,16 @@
 #include "main.h"
 
 /**
-* _isalpha - check if a character is an alphabet
-* @c: the character to be checked
+* _abs - check if a character is an alphabet
+* @n: the character to be checked
 * Return: 1 if lower and 0 if not
 */
 
-int _abs(int)
+int _abs(int n)
 {
-if  (int >= 0)
-return (int);
+if  (n >= 0)
+return (n);
 else
-return (-1 * int);
+return (-1 * n);
 
 }
