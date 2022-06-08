@@ -7,18 +7,24 @@
 * Return: Always 0
 */
 
+void print_alphabet_x10(void)
+{
+int x;
+int y;
+for (y = 0; y < 10; y++)
+{
+for (x = 'a'; x <= 'z'; x++)
+{
+putchar(x);
+}
+putchar('\n');
+}    
+
+}
+
 int main(void)
 {
-
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('a');
-putchar('r');
-putchar('\n');
+print_alphabet_x10();
 
 return (0);
 }
