@@ -2,23 +2,16 @@
 #include "main.h"
 
 /**
-* main - Entry
-*
-* Return: Always 0
+* _isalpha - check if a character is an alphabet
+* @c: the character to be checked
+* Return: 1 if lower and 0 if not
 */
 
-int main(void)
+int _abs(int)
 {
+if  (int >= 0)
+return (int);
+else
+return (-1 * int);
 
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('a');
-putchar('r');
-putchar('\n');
-
-return (0);
 }
