@@ -7,16 +7,11 @@
 * Return: Always 0
 */
 
-void print_putchar(void);
+int main(void)
 {
 char a[10];
 a = "_putchar\n";
-return a;
-}
-
-int main(void)
-{
-print_putchar();
+putchar(a);
 
 return (0);
 }
