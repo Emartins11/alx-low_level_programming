@@ -2,23 +2,13 @@
 #include "main.h"
 
 /**
-* main - Entry
-*
-* Return: Always 0
+* print_last_digit - check if a character is an alphabet
+* @n: the character to be checked
+* Return: 1 if lower and 0 if not
 */
 
-int main(void)
+int print_last_digit(int n)
 {
+return (n % 10);
 
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('a');
-putchar('r');
-putchar('\n');
-
-return (0);
 }
