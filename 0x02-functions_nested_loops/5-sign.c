@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
-* _isalpha - check if a character is an alphabet
-* @n: the character to be checked
-* Return: 1 if lower and 0 if not
+* print_sign - check if a number is positive or not 
+* @n: the number to be checked
+* Return: 1 if positive, 0 if 0, and -1 if negative
 */
 
-int _isalpha(int n)
+int print_sign(int n)
 {
 if  (n > 0)
 {
