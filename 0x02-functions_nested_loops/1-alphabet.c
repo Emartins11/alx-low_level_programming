@@ -15,12 +15,12 @@ for (x = 'a'; x <= 'z'; x++)
 putchar(x);
 }
 putchar('\n');
-
+return 0;
 }
 
 int main(void)
 {
-putchar(print_alphabet());
+print_alphabet();
 
 return (0);
 }
