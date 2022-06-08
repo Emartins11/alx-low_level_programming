@@ -2,23 +2,14 @@
 #include "main.h"
 
 /**
-* main - Entry
-*
-* Return: Always 0
+* _islower - prints 1 if lower and 0 if not
 */
 
-int main(void)
+int _islower(int c)
 {
+if  (x >= 'a' && x <= 'z')
+_putchar('1');
+else
+_putchar('0');
 
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('a');
-putchar('r');
-putchar('\n');
-
-return (0);
 }
