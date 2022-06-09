@@ -25,7 +25,7 @@ if (x < 50)
 {
 printf(", ");
 }
-else 
+else
 {
 printf("\n");
 }
