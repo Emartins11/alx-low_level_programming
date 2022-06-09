@@ -3,7 +3,7 @@
 
 /**
 * jack_bauer - check if a character is an alphabet
-* 
+*
 * Return: 1 if lower and 0 if not
 */
 
@@ -19,7 +19,7 @@ for (y = 0; y <= 3; y++)
 {
 for (a = 0; a <= 5; a++)
 {
-for (b = 0; a <=9; b++)
+for (b = 0; a <= 9; b++)
 {
 printf("%d", x);
 printf("%d", y);
