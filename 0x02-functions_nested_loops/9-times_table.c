@@ -19,6 +19,7 @@ for (j = 0; j <= i + 9; j++)
 printf("%d", i);
 putchar(',');
 putchar(' ');
+putchar(' ');
 }
 }
 else
@@ -29,6 +30,7 @@ if (j % i == 0)
 {
 printf("%d", j);
 putchar(',');
+putchar(' ');
 putchar(' ');
 }
 }
