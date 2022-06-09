@@ -19,11 +19,11 @@ for (y = 0; y <= 3; y++)
 {
 for (a = 0; a <= 5; a++)
 {
-for (b = 0; a <= 9; b++)
+for (b = 0; b <= 9; b++)
 {
 printf("%d", x);
 printf("%d", y);
-printf(" ");
+printf(":");
 printf("%d", a);
 printf("%d", b);
 printf("\n");
