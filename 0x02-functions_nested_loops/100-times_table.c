@@ -22,7 +22,7 @@ for (j = 0; j <= i + n; j++)
 printf("%d", i);
 if (j < i + n)
 {
-printf(",  ")
+printf(",  ");
 }
 }
 }
@@ -35,7 +35,7 @@ if (j % i == 0)
 printf("%d", j);
 if (j < i * n)
 {
-printf(",  ")
+printf(",  ");
 }
 }
 }
