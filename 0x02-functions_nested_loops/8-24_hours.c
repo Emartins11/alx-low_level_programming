@@ -19,7 +19,7 @@ for (y = 0; y <= 3; y++)
 {
 for (a = 0; a <= 5; a++)
 {
-for (b - 0; a <=9; b++)
+for (b = 0; a <=9; b++)
 {
 _putchar(x);
 _putchar(y);
