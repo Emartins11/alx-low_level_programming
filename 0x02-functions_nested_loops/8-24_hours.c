@@ -7,7 +7,7 @@
 * Return: 1 if lower and 0 if not
 */
 
-void jack_bauer(void);
+void jack_bauer(void)
 {
 int x;
 int y;
