@@ -19,6 +19,8 @@ if (x % 3 == 0 || x % 5 == 0)
 sum += x;
 }
 }
-return (sum);
+printf("%d \n", sum);
+
+return (0);
 
 }
