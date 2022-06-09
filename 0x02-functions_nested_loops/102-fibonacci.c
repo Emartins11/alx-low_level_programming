@@ -9,10 +9,10 @@
 
 int main(void)
 {
-uint x;
-uint f1;
-uint f2;
-uint nxt;
+long x;
+long f1;
+long f2;
+long nxt;
 f1 = 1;
 f2 = 2;
 
