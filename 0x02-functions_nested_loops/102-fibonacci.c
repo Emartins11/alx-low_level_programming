@@ -16,10 +16,10 @@ int nxt;
 f1 = 1;
 f2 = 2;
 
-printf("%d", f1)
+printf("%d", f1);
 for (x = 2; x <= 50; x++)
 {
-printf("%d", f2)
+printf("%d", f2);
 nxt = f1 +f2;
 f1 = f2;
 f2 = nxt;
