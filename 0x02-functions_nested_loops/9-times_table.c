@@ -17,7 +17,7 @@ if (i == 0)
 for (j = 0; j <= i + 9; j++)
 {
 _putchar(i);
-_putchar('\t');
+_putchar(' ');
 }
 }
 else
@@ -27,7 +27,7 @@ for (j = 0; j <= i * 9; j++)
 if (j % i == 0)
 {
 _putchar(j);
-_putchar('\t');
+_putchar(' ');
 }
 }
 }
