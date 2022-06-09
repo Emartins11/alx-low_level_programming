@@ -7,7 +7,7 @@
 * Return: 1 if lower and 0 if not
 */
 
-int sum_multiples(void)
+int main(void)
 {
 int x;
 int sum;
