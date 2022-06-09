@@ -2,23 +2,23 @@
 #include "main.h"
 
 /**
-* main - Entry
+* sum_multiples - check if a character is an alphabet
 *
-* Return: Always 0
+* Return: 1 if lower and 0 if not
 */
 
-int main(void)
+int sum_multiples(void)
 {
+int x;
+int sum;
+sum = 0;
+for (x = 3; x < 1024; x++)
+{
+if (x % 3 == 0 || x % 5 == 0)
+{
+sum += x;
+}
+}
+return (sum);
 
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('a');
-putchar('r');
-putchar('\n');
-
-return (0);
 }
