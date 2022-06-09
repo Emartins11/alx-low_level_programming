@@ -20,6 +20,10 @@ if (x < 98)
 putchar(',');
 putchar(' ');
 }
+else
+{
+putchar('\n')
+}
 }
 }
 else
@@ -31,6 +35,10 @@ if (x > 98)
 {
 putchar(',');
 putchar(' ');
+}
+else
+{
+putchar('\n')
 }
 }
 }
