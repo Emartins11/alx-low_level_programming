@@ -21,11 +21,11 @@ for (a = 0; a <= 5; a++)
 {
 for (b = 0; a <=9; b++)
 {
-_putchar(x);
-_putchar(y);
+printf("%d", x);
+printf("%d", y);
 _putchar(':');
-_putchar(a);
-_putchar(b);
+printf("%d", a);
+printf("%d", b);
 }
 }
 }
