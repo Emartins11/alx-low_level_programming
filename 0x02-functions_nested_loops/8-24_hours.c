@@ -26,7 +26,7 @@ printf("%d", y);
 printf(" ");
 printf("%d", a);
 printf("%d", b);
-printf("\n")
+printf("\n");
 }
 }
 }
