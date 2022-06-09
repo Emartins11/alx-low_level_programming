@@ -16,11 +16,11 @@ long nxt;
 f1 = 1;
 f2 = 2;
 
-printf("%d", f1);
+printf("%ld", f1);
 printf(", ");
 for (x = 2; x <= 50; x++)
 {
-printf("%d", f2);
+printf("%ld", f2);
 if (x < 50)
 {
 printf(", ");
