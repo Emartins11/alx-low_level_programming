@@ -17,6 +17,7 @@ f1 = 1;
 f2 = 2;
 
 printf("%d", f1);
+printf(", ");
 for (x = 2; x <= 50; x++)
 {
 printf("%d", f2);
