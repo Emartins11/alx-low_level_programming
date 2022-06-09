@@ -6,7 +6,7 @@
 * Return: 1 if lower and 0 if not
 */
 
-void times_table(void);
+void times_table(void)
 {
 int i;
 int j;
