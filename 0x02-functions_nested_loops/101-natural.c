@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* sum_multiples - check if a character is an alphabet
+* main - check if a character is an alphabet
 *
 * Return: 1 if lower and 0 if not
 */
@@ -19,7 +19,7 @@ if (x % 3 == 0 || x % 5 == 0)
 sum += x;
 }
 }
-printf("%d \n", sum);
+printf("%d\n", sum);
 
 return (0);
 
