@@ -23,10 +23,10 @@ for (b = 0; a <= 9; b++)
 {
 printf("%d", x);
 printf("%d", y);
-printf(' ');
+printf(" ");
 printf("%d", a);
 printf("%d", b);
-printf('\n')
+printf("\n")
 }
 }
 }
