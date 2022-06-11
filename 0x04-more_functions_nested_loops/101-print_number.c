@@ -9,10 +9,7 @@
 
 void print_number(int n)
 {
-if (n >= 'A' && n <= 'Z')
-{
 putchar(n);
-}
 
 
 }
