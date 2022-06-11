@@ -9,7 +9,7 @@
 
 void print_number(int n)
 {
-putchar(n);
+printf("%d", n);
 
 
 }
