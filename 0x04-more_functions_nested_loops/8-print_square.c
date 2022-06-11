@@ -3,15 +3,15 @@
 
 /**
 * print_square - check if a character is an alphabet
-* @n: the character to be checked
+* @size: the character to be checked
 *
 */
 
 void print_square(int size)
 {
-if (n >= 'A' && n <= 'Z')
+if (size >= 'A' && size <= 'Z')
 {
-putchar(n);
+putchar(size);
 }
 
 
