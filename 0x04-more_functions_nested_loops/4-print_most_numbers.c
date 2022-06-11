@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
-* print_numbers - check if a character is an alphabet
+* print_most_numbers - check if a character is an alphabet
 *
 */
 
-void print_numbers(void)
+void print_most_numbers(void)
 {
 int x;
 for (x = 0; x <= 9; x++)
