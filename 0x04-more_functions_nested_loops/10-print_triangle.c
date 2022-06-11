@@ -2,20 +2,17 @@
 #include "main.h"
 
 /**
-* _isupper - check if a character is an alphabet
-* @c: the character to be checked
-* Return: 1 if lower and 0 if not
+* print_triangle - check if a character is an alphabet
+* @size: the character to be checked
+*
 */
 
-int _isupper(int c)
+void print_triangle(int size)
 {
-if (c >= 'A' && c <= 'Z')
+if (size >= 'A' && size <= 'Z')
 {
-return (1);
+putchar(size);
 }
-else
-{
-return (0);
-}
+
 
 }
