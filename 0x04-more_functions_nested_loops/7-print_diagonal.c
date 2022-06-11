@@ -2,20 +2,17 @@
 #include "main.h"
 
 /**
-* _isupper - check if a character is an alphabet
-* @c: the character to be checked
-* Return: 1 if lower and 0 if not
+* print_diagonal - check if a character is an alphabet
+* @n: the character to be checked
+*
 */
 
-int _isupper(int c)
+void print_diagonal(int n)
 {
-if (c >= 'A' && c <= 'Z')
+if (n >= 'A' && n <= 'Z')
 {
-return (1);
+putchar(n);
 }
-else
-{
-return (0);
-}
+
 
 }
