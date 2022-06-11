@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include "main.h"
+
+/**
+* print_diagonal - check if a character is an alphabet
+* @n: the character to be checked
+*
+*/
+
+void print_diagonal(int n)
+{
+if (n >= 'A' && n <= 'Z')
+{
+putchar(n);
+}
+
+
+}
