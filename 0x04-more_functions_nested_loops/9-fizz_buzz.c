@@ -2,20 +2,25 @@
 #include "main.h"
 
 /**
-* _isupper - check if a character is an alphabet
-* @c: the character to be checked
+* main - check if a character is an alphabet
+*
 * Return: 1 if lower and 0 if not
 */
 
-int _isupper(int c)
+int main(void)
 {
-if (c >= 'A' && c <= 'Z')
+int x;
+int sum;
+sum = 0;
+for (x = 3; x < 1024; x++)
 {
-return (1);
+if (x % 3 == 0 || x % 5 == 0)
+{
+sum += x;
 }
-else
-{
+}
+printf("%d\n", sum);
+
 return (0);
-}
 
 }
