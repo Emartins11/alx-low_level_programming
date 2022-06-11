@@ -2,20 +2,16 @@
 #include "main.h"
 
 /**
-* _isupper - check if a character is an alphabet
-* @c: the character to be checked
-* Return: 1 if lower and 0 if not
+* print_numbers - check if a character is an alphabet
+*
 */
 
-int _isupper(int c)
+void print_numbers(void)
 {
-if (c >= 'A' && c <= 'Z')
+int x;
+for (x = 0; x <= 9; x++)
 {
-return (1);
-}
-else
-{
-return (0);
+printf("%d\n", x);
 }
 
 }
