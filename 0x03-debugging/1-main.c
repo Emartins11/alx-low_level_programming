@@ -19,11 +19,5 @@ printf("infinite loop incoming :(\n");
  */
 printf("infinite loop avoided! \\o/\n");
 
-
-
-
-
-
-
 return (0);
 }
