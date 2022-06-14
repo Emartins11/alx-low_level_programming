@@ -3,7 +3,7 @@
 
 /**
 * reset_to_98 - check if a character is an alphabet
-* @*n: the character to be checked
+* @n: the character to be checked
 *
 */
 
