@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
-* reset_to_98 - check if a character is an alphabet
-* @n: the character to be checked
+*reset_to_98 - check if a character is an alphabet
+*@n: the character to be checked
 *
 */
 
