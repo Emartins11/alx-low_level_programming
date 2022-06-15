@@ -5,7 +5,7 @@
 /**
 *_strlen - check if a character is an alphabet
 *@s: the character to be checked
-*return: anything
+*Return: anything
 */
 
 int _strlen(char *s)
