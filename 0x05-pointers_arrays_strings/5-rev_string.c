@@ -10,7 +10,7 @@
 
 void rev_string(char *s)
 {
-strsep(s);
+printf("%s\n", s);
 
 
 }
