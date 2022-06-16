@@ -16,9 +16,11 @@ if (size > 0)
 for (i = 0; i < size; i++)
 {
 for (n = 0; n < size; n++)
+{
 putchar(35);
 }
 putchar('\n');
+}
 }
 putchar('\n');
 
