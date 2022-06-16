@@ -1,5 +1,7 @@
-#include<stdio.h>
+#include<cstdio.h>
 #include "main.h"
+
+using namespace std;
 
 /**
 * more_numbers - check if a character is an alphabet
@@ -10,6 +12,9 @@ void more_numbers(void)
 {
 int x;
 int n;
+int count = 0;
+while (count < 10)
+{
 for (x = 48; x <= 49; x++)
 {
 for (n = 48; n <= 57; n++)
@@ -18,12 +23,16 @@ if (x == 49 && n <= 52)
 {
 putchar(x);
 }
-if (n <= 52 && x == 49)
+else if (x == 49 && n > 52)
 {
-putchar(n);
+break;
 }
+putchar(n);
+
 }
 }
 
 putchar('\n');
+++count;
+}
 }
