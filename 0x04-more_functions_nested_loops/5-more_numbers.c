@@ -9,9 +9,18 @@
 void more_numbers(void)
 {
 int x;
-for (x = 0; x <= 9; x++)
+int n;
+for (x = 48; x <= 49; x++)
 {
-printf("%d\n", x);
+for (n = 48; n <= 57; n++)
+{
+if (x == 49 && n <= 52)
+{
+putchar(x);
+}
+putchar(n);
+}
 }
 
+putchar('\n');
 }
