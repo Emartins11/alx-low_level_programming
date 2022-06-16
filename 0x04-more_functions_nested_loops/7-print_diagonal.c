@@ -9,10 +9,16 @@
 
 void print_diagonal(int n)
 {
-if (n >= 'A' && n <= 'Z')
+if (n > 0)
 {
-putchar(n);
+for (i = 0; i < n; i++)
+{
+putchar(92);
+putchar('\n');
+putchar(' ');
 }
+}
+putchar('\n');
 
 
 }
