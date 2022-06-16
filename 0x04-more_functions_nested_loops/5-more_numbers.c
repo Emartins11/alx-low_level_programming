@@ -18,7 +18,10 @@ if (x == 49 && n <= 52)
 {
 putchar(x);
 }
+if (n <= 52 && x == 49)
+{
 putchar(n);
+}
 }
 }
 
