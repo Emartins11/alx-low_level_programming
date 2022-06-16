@@ -9,10 +9,18 @@
 
 void print_square(int size)
 {
-if (size >= 'A' && size <= 'Z')
+int i;
+int n;
+if (size > 0)
 {
-putchar(size);
+for (i = 0; i < size; i++)
+{
+for (n = 0; n < size; n++)
+putchar(35);
 }
+putchar('\n');
+}
+putchar('\n');
 
 
 }
