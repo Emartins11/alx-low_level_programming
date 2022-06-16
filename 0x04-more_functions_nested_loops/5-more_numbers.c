@@ -1,4 +1,4 @@
-#include<cstdio.h>
+#include<stdio.h>
 #include "main.h"
 
 using namespace std;
