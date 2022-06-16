@@ -19,7 +19,10 @@ for (n = 0; n < size; n++)
 {
 putchar(35);
 }
+if (i < size - 1)
+{
 putchar('\n');
+}
 }
 }
 putchar('\n');
