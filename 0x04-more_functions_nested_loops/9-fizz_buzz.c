@@ -10,26 +10,16 @@
 int main(void)
 {
 int x;
-int n;
-for (x = 48; x <= 57; x++)
+int sum;
+sum = 0;
+for (x = 3; x < 1024; x++)
 {
-for (n = 48; n <= 57; n++)
+if (x % 3 == 0 || x % 5 == 0)
 {
-if (x > 48)
-{
-putchar(x);
-}
-putchar(n);
-if (x = 57 && n = 57)
-{
-break;
-}
-else
-{
-putchar(' ');
+sum += x;
 }
 }
-}
+printf("%d\n", sum);
 
 return (0);
 
