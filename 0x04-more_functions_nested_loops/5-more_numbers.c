@@ -1,8 +1,6 @@
 #include<stdio.h>
 #include "main.h"
 
-using namespace std;
-
 /**
 * more_numbers - check if a character is an alphabet
 *
