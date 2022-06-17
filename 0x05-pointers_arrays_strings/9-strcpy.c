@@ -11,9 +11,7 @@
 
 char *_strcpy(char *dest, char *src)
 {
-int len;
-len = strlen(src);
-return (len);
+return (src);
 
 
 }
