@@ -21,12 +21,12 @@ putchar(92);
 if (i < n - 1)
 {
 putchar('\n');
-}
 for (x = n - p; x < n; x++)
 {
 putchar(' ');
 }
 ++p;
+}
 }
 }
 putchar('\n');
