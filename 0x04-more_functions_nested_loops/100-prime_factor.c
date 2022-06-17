@@ -9,10 +9,10 @@
 
 int main(void)
 {
-long x;
-long y;
-long number;
-long result;
+long long x;
+long long y;
+long long number;
+long long result;
 number = 612852475143;
 result = number;
 for (x = 2; x <= number; x++)
@@ -27,7 +27,7 @@ result = result / x;
 }
 }
 }
-printf("%ld\n", y);
+printf("%lld\n", y);
 
 
 return (0);
