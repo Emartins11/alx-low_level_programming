@@ -9,17 +9,26 @@
 
 int main(void)
 {
-int x;
-int sum;
-sum = 0;
-for (x = 3; x < 1024; x++)
+long x;
+long y;
+long number;
+long result;
+number = 612852475143;
+result = number;
+for (x = 2; x <= number; x++)
 {
-if (x % 3 == 0 || x % 5 == 0)
+if (result % x == 0)
 {
-sum += x;
+y = x;
+result = result / x;
+while (result % x == 0)
+{
+result = result / x;
 }
 }
-printf("%d\n", sum);
+}
+printf("%ld\n", y);
+
 
 return (0);
 
