@@ -11,7 +11,9 @@
 
 char *_strcpy(char *dest, char *src)
 {
-return ("string");
+char name[6];
+name = "flavio";
+return name;
 
 
 }
