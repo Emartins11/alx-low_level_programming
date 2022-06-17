@@ -11,9 +11,8 @@
 
 char *_strcpy(char *dest, char *src)
 {
-char name[6];
-name[0] = "f";
-return (name[0]);
 
+printf("%s\n", src);
+printf("%s\n", dest);
 
 }
