@@ -11,8 +11,8 @@ int i;
 
 printf("Infinite loop incoming :(\n");
 /**
-*printf - i = 0;
-*@\\o/\n": go home
+* i = 0;
+*
 *while (i < 10)
 *{
 *putchar(i);
