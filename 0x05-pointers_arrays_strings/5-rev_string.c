@@ -9,6 +9,7 @@
  * @: store character.
  * Return: Always 0.
  */
+int string_length(char *pointer);
 void rev_string(char *s)
 {
 	int length, c;
