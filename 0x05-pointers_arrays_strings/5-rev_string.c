@@ -2,6 +2,22 @@
 #include "main.h"
 
 /**
+  * string_length - finds the length of a string.
+  * Return: length of c.
+  * @pointer: pointer.
+  */
+int string_length(char *pointer)
+{
+	int c = 0;
+
+	while (*(pointer + c) != '\0')
+	{
+		c++;
+	}
+	return (c);
+}
+
+/**
  * rev_string - Reverses a string.
  *
  * string_length: prints number of characters.
@@ -9,7 +25,7 @@
  * @: store character.
  * Return: Always 0.
  */
-int string_length(char *pointer);
+
 void rev_string(char *s)
 {
 	int length, c;
@@ -32,20 +48,4 @@ void rev_string(char *s)
 		begin++;
 		end--;
 	}
-}
-
-/**
-  * string_length - finds the length of a string.
-  * Return: length of c.
-  * @pointer: pointer.
-  */
-int string_length(char *pointer)
-{
-	int c = 0;
-
-	while (*(pointer + c) != '\0')
-	{
-		c++;
-	}
-	return (c);
 }
