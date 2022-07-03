@@ -1,18 +1,42 @@
 #include <stdio.h>
 #include "main.h"
-#include <string.h>
 
 /**
-*_strcpy - check if a character is an alphabet
-*@dest: the character to be checked
-*@src: the character to be checked
-*Return: anything
-*/
+  * string_length - finds the length of a string.
+  * Return: length of c.
+  * @pointer: pointer.
+  */
+int string_length(char *pointer)
+{
+	int c = 0;
 
+	while (*(pointer + c) != '\0')
+	{
+		c++;
+	}
+	return (c);
+}
+
+/**
+ * *_strcpy - copies the string pointed to by src.
+ *
+ * @dest: pointer to the buffer.
+ * @src: pointer to the source string.
+ * Return: char
+ */
 char *_strcpy(char *dest, char *src)
 {
+	int n;
+	int i;
 
-printf("%s\n", src);
-printf("%s\n", dest);
-
+	n = string_length(src);
+	for (i = 0; i < n && src[i] != '\0'; i++)
+	{
+		dest[i] = src[i];
+	}
+	for (; i < n; i++)
+	{
+		dest[i] = '\0';
+	}
+	return (dest);
 }
