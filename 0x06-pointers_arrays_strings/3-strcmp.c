@@ -1,19 +1,26 @@
 #include <stdio.h>
 #include "main.h"
-#include <string.h>
 
 /**
-*_strcmp - check if a character is an alphabet
-*@s1: the character to be checked
-*@s2: the character to be checked
-*Return: anything
-*/
-
+ * _strcmp - compares two strings.
+ *
+ * @s1: first string.
+ * @s2: second string.
+ * Return: Always 0.
+ */
 int _strcmp(char *s1, char *s2)
 {
-int len;
-len = strlen(s1);
-return (len);
+	int result;
+	int i = 0;
 
-
+	while (s1[i] == s2[i])
+	{
+		if (s1[i] == '\0' && s2[i] == '\0')
+		{
+			break;
+		}
+		i++;
+	}
+	result = s1[i] - s2[i];
+	return (result);
 }
